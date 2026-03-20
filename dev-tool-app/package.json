@@ -1,0 +1,35 @@
+{
+  "name": "dev-tool-app",
+  "version": "1.0.0",
+  "description": "A code editor and playground for React and Python with live preview and theme switching.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "code editor",
+    "react",
+    "python",
+    "live preview",
+    "monaco editor"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "monaco-editor": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
