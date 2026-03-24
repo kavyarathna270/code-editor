@@ -39,7 +39,7 @@ To start the development server, run:
 ```
 npm run dev
 ```
-Open your browser and navigate to `http://localhost:3000` to access the application.
+Open your browser and navigate to `http://localhost:5173` to access the application.
 
 ## Usage
 

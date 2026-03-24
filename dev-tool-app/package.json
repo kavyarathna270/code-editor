@@ -4,9 +4,9 @@
   "description": "A code editor and playground for React and Python with live preview and theme switching.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev --webpack -p 5173",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 5173",
     "lint": "eslint ."
   },
   "keywords": [
